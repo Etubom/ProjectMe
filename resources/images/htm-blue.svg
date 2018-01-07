@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+ <g transform="translate(0 -540.36)">
+  <g transform="scale(.53451 1.8709)" fill="#b1b1b1" stroke="#59f" stroke-width="10.04">
+   <path d="m293.5 358.75-197.14 67.893 197.14 67.484v51.124l-262.17-94.682v-48.261l262.17-94.682v51.124"/>
+   <path d="m673.46 358.75v-51.124l262.17 94.682v48.261l-262.17 94.682v-51.124l197.34-67.484-197.34-67.893" fill="#b1b1b1" stroke="#59f"/>
+  </g>
+ </g>
+ <g transform="matrix(.891 0 0 .891 501.58 314.1)" fill="#ececec" stroke="#d3d3d3" stroke-width="3.367">
+  <rect x="-390.08" y="-137.88" width="220.17" height="22.167"/>
+  <rect x="-390.08" y="-101.68" width="220.17" height="22.167"/>
+  <rect x="-390.08" y="6.9163" width="220.17" height="22.167"/>
+  <rect x="-390.08" y="-65.484" width="220.17" height="22.167"/>
+  <rect x="-390.08" y="-29.284" width="220.17" height="22.167"/>
+  <rect x="-349.12" y="-174.12" width="179.25" height="22.247"/>
+ </g>
+</svg>

@@ -5,13 +5,30 @@
       <link rel="stylesheet" href="./resources/css/reset.css">
     <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
+  <!--font awesome cdn-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./resources/css/style.css">
     <title>Edem</title>
   </head>
   <body>
               <header>
-                  <nav class="navbar-left">
+                <nav class="navbar navbar-inverse">
+                  <div class="container-fluid">
+                          <div class="navbar-left">
+                              <p>Welcome</p>
+                          </div>
+
+                        <!--<nav>-->
+                            <ul class="navbar-right list-inline">
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Portfolio</a></li>
+                            </ul>
+                        <!--</nav>-->
+                  </div>
+                </nav>
+
+            <!--      <nav class="navbar-left">
                      <p>Welcome</p>
 
                   </nav>
@@ -21,10 +38,18 @@
                           <li><a href="#">Blog</a></li>
                           <li><a href="#">Portfolio</a></li>
                       </ul>
-                  </nav>
+                  </nav>-->
               </header>
         <main>
-          <section class="jumbotron">
+          <section>
+            <div class="jumbotron">
+                <div class="container">
+
+                </div>
+
+            </div>
+          </section>
+        <!--  <section class="jumbotron">
               <div class="row">
                   <div class="col-sm-8">
 
@@ -34,8 +59,9 @@
                   </div>
               </div>
 
-          </section>
+          </section>-->
           <section>
+            <div class="fluid-container">
               <div class="row">
                   <div class="col-sm-4 icon1">
                       <!--<img src="resources\images\htm-black.svg" alt="">-->
@@ -50,11 +76,14 @@
                       htm-blue
                   </div>
               </div>
+            </div>
           </section>
+
+
           <section>
               <div class="row">
                 <div class="col-sm-12">
-                  <p>About me row</p>
+                  <h1>About me row</h1>
                 </div>
               </div>
           </section>
@@ -73,34 +102,41 @@
                         </p>
                       </div>
                           <div class="col-sm-4 portfolio">
-                              <img src="resources\images\Placeholder.jpg" alt="">
-                                <img src="resources\images\Placeholder.jpg" alt="">
+                              <img class="img-responsive" src="resources\images\Placeholder.jpg" alt="">
+                              <p class="text-center">Project One</p>
+                                <img class="img-responsive" src="resources\images\Placeholder.jpg" alt="">
+                              <p>Project Two</p>
                           </div>
                           <div class="col-sm-4 portfolio">
-                              <img src="resources\images\Placeholder.jpg" alt="">
-                                <img src="resources\images\Placeholder.jpg" alt="">
+                              <img class="img-responsive" src="resources\images\Placeholder.jpg" alt="">
+                                <p>Project Three</p>
+                                <img class="img-responsive" src="resources\images\Placeholder.jpg" alt="">
+                                <p>Project Four</p>
                           </div>
                     </div>
                   </section>
                   <section>
-                        <div class="row">
-                            <div class="col-sm-12 footer">
-
+                  <div class="nav navbar-inverse pagefooter">
+                          <div class="row">
+                            <div class="container-fluid">
+                              <div class="col-sm-3">
+                                twitter
+                              </div>
+                              <div class="col-sm-3">
+                                github
+                              </div>
+                              <div class="col-sm-3">
+                                codepen
+                              </div>
+                              <div class="col-sm-3">
+                                One More
+                              </div>
                             </div>
-                        </div>
-                  </section>
-          <!--<div class="banner">
-            <div class="container">
-              <nav class="desktopnavigation">
-                <ul>
-                  <li>About Me</li>
-                  <li>Portfolio</li>
-                </ul>
-              </nav>
-            </div>
 
-
-          </div>-->
+                          </div>
+                          <footer>@copyright 2018</footer>
+                  </div>
+                </section>
         </main>
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
          <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
